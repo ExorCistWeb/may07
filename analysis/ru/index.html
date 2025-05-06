@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			href="../../img/favicon/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="../../img/favicon//favicon.svg"
+		/>
+		<link rel="shortcut icon" href="../../img/favicon//favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="../../img/favicon//apple-touch-icon.png"
+		/>
+		<link rel="manifest" href="../../img/favicon/site.webmanifest" />
+
+		<!-- HTML Meta Tags -->
+		<title>
+			Lavanta Ride - Скутер который катает или приносит доход — выбирайте, что
+			вам ближе!
+		</title>
+		<meta
+			name="description"
+			content="Хочешь быстро и недорого передвигаться по Анталье? 
+Арендуй бензиновый скутер от 10 лир в минуту — без подзарядки, без пробок, без ожидания."
+		/>
+
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content="https://lavantaride.com/" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:title"
+			content="Lavanta Ride - Скутер который катает или приносит доход — выбирайте, что вам ближе!"
+		/>
+		<meta
+			property="og:description"
+			content="Хочешь быстро и недорого передвигаться по Анталье? 
+Арендуй бензиновый скутер от 10 лир в минуту — без подзарядки, без пробок, без ожидания."
+		/>
+		<meta
+			property="og:image"
+			content="https://opengraph.b-cdn.net/production/images/54f7acb4-21bc-46dc-b222-0b0bd39cc3ef.jpg?token=wIjdwYqjUNbduRXBFgrti-2S0AmlXuGoK-cUxWkzPQY&height=311&width=454&expires=33280976870"
+		/>
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:domain" content="lavantaride.com" />
+		<meta property="twitter:url" content="https://lavantaride.com/" />
+		<meta
+			name="twitter:title"
+			content="Lavanta Ride - Скутер который катает или приносит доход — выбирайте, что вам ближе!"
+		/>
+		<meta
+			name="twitter:description"
+			content="Хочешь быстро и недорого передвигаться по Анталье? 
+Арендуй бензиновый скутер от 10 лир в минуту — без подзарядки, без пробок, без ожидания."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://opengraph.b-cdn.net/production/images/54f7acb4-21bc-46dc-b222-0b0bd39cc3ef.jpg?token=wIjdwYqjUNbduRXBFgrti-2S0AmlXuGoK-cUxWkzPQY&height=311&width=454&expires=33280976870"
+		/>
+
+		<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20250418161646"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css?_v=20250418161646"
+		/>
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20250418161646"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../../css/style.min.css?_v=20250418161646" />
+	</head>
+
+	<body>
+		<div class="app">
+			<header class="header">
+				<div class="container">
+					<div class="header__main">
+						<div class="header__logo">
+							<a href="/ru" class="header__logo_link">
+								<img
+									src="../../img/logo.svg"
+									alt="Lavanta"
+									class="header__logo_img"
+								/>
+							</a>
+						</div>
+
+						<nav class="header__nav">
+							<ul class="header__nav_list">
+								<li><a href="/ru" class="header__nav_link">Главная</a></li>
+								<li>
+									<a href="/investments/ru" class="header__nav_link"
+										>Инвестиции</a
+									>
+								</li>
+							</ul>
+
+							<div class="langwich-switcher">
+								<a
+									href="/analysis/ru"
+									class="langwich-switcher__link langwich-switcher__link--active"
+									>Ru</a
+								>
+								<a href="/analysis/" class="langwich-switcher__link">Tr</a>
+
+								<!-- <a
+						href="/"
+						class="langwich-switcher__link langwich-switcher__link--active"
+					>
+						<img src="../../img/ru.svg" alt="ru" />
+					</a>
+					<a href="/" class="langwich-switcher__link">
+						<img src="../../img/tr.svg" alt="tr" />
+					</a> -->
+							</div>
+
+							<a class="header__button btn" href="#contactForm">
+								<span>Поехали</span>
+							</a>
+						</nav>
+
+						<button class="header__burger">
+							<i></i>
+							<i></i>
+							<i></i>
+						</button>
+					</div>
+				</div>
+			</header>
+
+			<main>
+				<section class="hero-analysis">
+					<div class="container">
+						<h1
+							class="hero-analysis__title title"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
+							Анализ рентабельности
+
+							<span>Аренды скутеров</span>
+						</h1>
+					</div>
+				</section>
+
+				<section class="variables">
+					<div class="container">
+						<h2 class="variables__title title">
+							<span>Основные</span>
+							Переменные
+						</h2>
+
+						<div class="variables__wrapper">
+							<div
+								class="variables-item"
+								data-aos="fade"
+								data-aos-duration="1000"
+							>
+								<div class="variables-item__head">
+									<div class="variables-item__icon">
+										<img
+											class="variables-item__image"
+											src="../../img/analysis/ticket-star.svg"
+											alt="analysi"
+										/>
+									</div>
+									<div class="variables-item__title">
+										Стоимость аренды <span>(P)</span>
+									</div>
+								</div>
+
+								<div class="variables-item__content">
+									<img
+										class="variables-item__content-icon"
+										src="../../img/analysis/mony.svg"
+										alt="icon"
+									/>
+									<div class="variables-item__content-text">
+										<span>10</span>/мин.
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="variables-item"
+								data-aos="fade"
+								data-aos-delay="100"
+								data-aos-duration="1000"
+							>
+								<div class="variables-item__head">
+									<div class="variables-item__icon">
+										<img
+											class="variables-item__image"
+											src="../../img/analysis/timer.svg"
+											alt="analysi"
+										/>
+									</div>
+									<div class="variables-item__title">
+										Среднее время аренды <span>(t)</span>
+									</div>
+								</div>
+
+								<div class="variables-item__content">
+									<img
+										class="variables-item__content-icon"
+										src="../../img/analysis/time.svg"
+										alt="icon"
+									/>
+									<div class="variables-item__content-text">
+										<span>60,90,120</span> мин/день
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="variables-item"
+								data-aos="fade"
+								data-aos-delay="200"
+								data-aos-duration="1000"
+							>
+								<div class="variables-item__head">
+									<div class="variables-item__icon">
+										<img
+											class="variables-item__image"
+											src="../../img/analysis/calendar-2.svg"
+											alt="analysi"
+										/>
+									</div>
+									<div class="variables-item__title">
+										Количество дней <span>(D)</span>
+									</div>
+								</div>
+
+								<div class="variables-item__content">
+									<img
+										class="variables-item__content-icon"
+										src="../../img/analysis/calendar.svg"
+										alt="icon"
+									/>
+									<div class="variables-item__content-text">
+										<span>30</span> дней/месяц
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="variables-item"
+								data-aos="fade"
+								data-aos-delay="300"
+								data-aos-duration="1000"
+							>
+								<div class="variables-item__head">
+									<div class="variables-item__icon">
+										<img
+											class="variables-item__image"
+											src="../../img/analysis/coin.svg"
+											alt="analysi"
+										/>
+									</div>
+									<div class="variables-item__title">
+										Инвестиции на 1 скутер <span>(I)</span>
+									</div>
+								</div>
+
+								<div class="variables-item__content">
+									<img
+										class="variables-item__content-icon"
+										src="../../img/analysis/mony.svg"
+										alt="icon"
+									/>
+									<div class="variables-item__content-text">
+										<span>57 000</span>
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="variables-item"
+								data-aos="fade"
+								data-aos-delay="400"
+								data-aos-duration="1000"
+							>
+								<div class="variables-item__head">
+									<div class="variables-item__icon">
+										<img
+											class="variables-item__image"
+											src="../../img/analysis/receipt-item.svg"
+											alt="analysi"
+										/>
+									</div>
+									<div class="variables-item__title">
+										Базовые расходы <span>(C)</span>
+									</div>
+								</div>
+
+								<div class="variables-item__content">
+									<img
+										class="variables-item__content-icon"
+										src="../../img/analysis/mony.svg"
+										alt="icon"
+									/>
+									<div class="variables-item__content-text">
+										<span>2 476</span>/месяц
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="indicators">
+					<div class="container">
+						<h2 class="indicators__title title">
+							<span>Финансовые</span>
+							Показатели
+						</h2>
+
+						<div class="overflow-x">
+							<div class="table" data-aos="fade-right" data-aos-duration="1000">
+								<div class="table-header">
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											Время <span>(мин/день)</span>
+										</div>
+									</div>
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											Выручка <span>(TRY/мес)</span>
+										</div>
+									</div>
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											Расходы <span>(TRY/мес)</span>
+										</div>
+									</div>
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											Прибыль <span> (TRY/мес)</span>
+										</div>
+									</div>
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											Окупаемость <span>(мес)</span>
+										</div>
+									</div>
+									<div class="table-header__item">
+										<div class="table-header__item-value">
+											ROI <span>(годовой)</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="table-body">
+									<div class="table-row">
+										<div class="table-row__item">
+											<div class="table-row__item-value">60</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">18,000</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">2,637</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">15,363</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">3.7</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">323%</div>
+										</div>
+									</div>
+
+									<div class="table-row">
+										<div class="table-row__item">
+											<div class="table-row__item-value">90</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">27,000</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">3,466</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">23,534</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">2.4</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">495%</div>
+										</div>
+									</div>
+
+									<div class="table-row">
+										<div class="table-row__item">
+											<div class="table-row__item-value">120</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">36,000</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">3,962</div>
+										</div>
+
+										<div class="table-row__item">
+											<div class="table-row__item-value">32,038</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">1.8</div>
+										</div>
+										<div class="table-row__item">
+											<div class="table-row__item-value">674%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="financial-indicators">
+					<div class="container">
+						<div class="financial-indicators__main">
+							<div class="body-financial-indicators">
+								<div
+									class="body-financial-indicators__item"
+									data-aos="fade"
+									data-aos-duration="800"
+								>
+									<h5
+										class="body-financial-indicators__head body-financial-indicators__head_1"
+									>
+										<span>Выручка</span>
+										<span>Расходы</span>
+										<span>Прибыль</span>
+									</h5>
+
+									<p class="body-financial-indicators__left-text">TRY / %</p>
+
+									<div class="body-financial-indicators__image">
+										<img
+											src="../../img/financial-indicators/1.webp"
+											alt="Graph"
+										/>
+									</div>
+								</div>
+
+								<div
+									class="body-financial-indicators__item"
+									data-aos="fade"
+									data-aos-delay="200"
+									data-aos-duration="800"
+								>
+									<h5 class="body-financial-indicators__head">
+										<span>Срок окупаемости</span>
+									</h5>
+
+									<p class="body-financial-indicators__left-text">TRY / %</p>
+
+									<div class="body-financial-indicators__image">
+										<img
+											src="../../img/financial-indicators/2.webp"
+											alt="Graph"
+										/>
+									</div>
+								</div>
+
+								<div
+									class="body-financial-indicators__item"
+									data-aos="fade"
+									data-aos-delay="400"
+									data-aos-duration="800"
+								>
+									<h5 class="body-financial-indicators__head">
+										<span>ROI (годовая доходность)</span>
+									</h5>
+
+									<p class="body-financial-indicators__left-text">TRY / %</p>
+
+									<div class="body-financial-indicators__image">
+										<img
+											src="../../img/financial-indicators/3.webp"
+											alt="Graph"
+										/>
+									</div>
+								</div>
+
+								<div
+									class="body-financial-indicators__block"
+									data-aos="fade"
+									data-aos-delay="600"
+									data-aos-duration="800"
+								>
+									<h2 class="body-financial-indicators__title title">
+										Ключевые <span>Выводы</span>
+									</h2>
+
+									<ul class="body-financial-indicators__list">
+										<li class="body-financial-indicators__li">
+											<img
+												src="../../img/financial-indicators/helmet.svg"
+												alt="icons"
+											/>
+											<p>
+												Прибыль растет экспоненциально: от 6,524 TRY (30 мин) до
+												31,704 TRY (120 мин)
+											</p>
+										</li>
+										<li class="body-financial-indicators__li">
+											<img
+												src="../../img/financial-indicators/helmet.svg"
+												alt="icons"
+											/>
+											<p>
+												Срок окупаемости сокращается: с 8.7 месяцев до 1.8
+												месяцев
+											</p>
+										</li>
+										<li class="body-financial-indicators__li">
+											<img
+												src="../../img/financial-indicators/helmet.svg"
+												alt="icons"
+											/>
+											<p>ROI достигает 667% при максимальной загрузке</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="our-recommendations">
+					<div class="container">
+						<div class="our-recommendations__main">
+							<div class="top-our-recommendations">
+								<h2 class="top-our-recommendations__title title">
+									Нaши <span>Рекомендации</span>
+								</h2>
+							</div>
+
+							<div class="our-recommendations__body">
+								<div class="item-our-recommendations">
+									<div
+										class="item-our-recommendations__top item-our-recommendations__top_1"
+									>
+										<img
+											class="item-our-recommendations__icon"
+											src="../../img/our-recommendations/clock.svg"
+											alt="Icon"
+											data-aos="zoom-in"
+											data-aos-duration="1000"
+										/>
+										<img
+											class="item-our-recommendations__palm item-our-recommendations__palm_1"
+											src="../../img/our-recommendations/p1.webp"
+											alt="Palm"
+										/>
+									</div>
+
+									<div class="item-our-recommendations__botton">
+										<h3 class="item-our-recommendations__subtitle">
+											Оптимальная загрузка:
+										</h3>
+										<p class="item-our-recommendations__text">
+											60–90 мин/день (баланс прибыли и износа)
+										</p>
+									</div>
+								</div>
+
+								<div class="item-our-recommendations">
+									<div
+										class="item-our-recommendations__top item-our-recommendations__top_2"
+									>
+										<img
+											class="item-our-recommendations__icon"
+											src="../../img/our-recommendations/receipt-disscount.svg"
+											alt="Icon"
+											data-aos="zoom-in"
+											data-aos-delay="200"
+											data-aos-duration="1000"
+										/>
+										<img
+											class="item-our-recommendations__palm item-our-recommendations__palm_2"
+											src="../../img/our-recommendations/p2.webp"
+											alt="Palm"
+										/>
+									</div>
+
+									<div class="item-our-recommendations__botton">
+										<h3 class="item-our-recommendations__subtitle">
+											Динамическое ценообразование:
+										</h3>
+										<p class="item-our-recommendations__text">
+											Скидки за долгую аренду
+										</p>
+									</div>
+								</div>
+
+								<div class="item-our-recommendations">
+									<div
+										class="item-our-recommendations__top item-our-recommendations__top_3"
+									>
+										<img
+											class="item-our-recommendations__icon"
+											src="../../img/our-recommendations/setting-3.svg"
+											alt="Icon"
+											data-aos="zoom-in"
+											data-aos-delay="200"
+											data-aos-duration="1000"
+										/>
+										<img
+											class="item-our-recommendations__palm item-our-recommendations__palm_3"
+											src="../../img/our-recommendations/p3.webp"
+											alt="Palm"
+										/>
+									</div>
+
+									<div class="item-our-recommendations__botton">
+										<h3 class="item-our-recommendations__subtitle">
+											Мониторинг износа:
+										</h3>
+										<p class="item-our-recommendations__text">
+											Резерв на ремонт
+										</p>
+									</div>
+								</div>
+
+								<div class="item-our-recommendations">
+									<div
+										class="item-our-recommendations__top item-our-recommendations__top_4"
+									>
+										<img
+											class="item-our-recommendations__icon"
+											src="../../img/our-recommendations/map.svg"
+											alt="Icon"
+											data-aos="zoom-in"
+											data-aos-delay="200"
+											data-aos-duration="1000"
+										/>
+										<img
+											class="item-our-recommendations__palm item-our-recommendations__palm_4"
+											src="../../img/our-recommendations/p4.webp"
+											alt="Palm"
+										/>
+									</div>
+
+									<div class="item-our-recommendations__botton">
+										<h3 class="item-our-recommendations__subtitle">
+											AI-оптимизация:
+										</h3>
+										<p class="item-our-recommendations__text">
+											Распределение скутеров в зонах спроса
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div class="container">
+					<div class="footer__main">
+						<div class="form-footer">
+							<div class="form-footer__left">
+								<div class="form-footer__col">
+									<h3 class="form-footer__title">Контактная информация</h3>
+								</div>
+
+								<div class="form-footer__col">
+									<div class="form-footer__col_box">
+										<div class="form-footer__info">
+											<div class="form-footer__info_top">
+												<img
+													src="../../img/icons/sms.svg"
+													alt="Email"
+													class="form-footer__info_img"
+												/>
+												<span class="form-footer__info_title"
+													>Электронная почта</span
+												>
+											</div>
+											<a
+												class="form-footer__info_link"
+												href="mailto:info@lavantaride.com"
+											>
+												info@lavantaride.com
+											</a>
+										</div>
+
+										<div class="form-footer__info">
+											<div class="form-footer__info_top">
+												<img
+													src="../../img/icons/phone.svg"
+													alt="Phone"
+													class="form-footer__info_img"
+												/>
+												<span class="form-footer__info_title">Телефон</span>
+											</div>
+											<a
+												class="form-footer__info_link"
+												href="tel:+905051038350"
+											>
+												+90 505 103 83 50
+											</a>
+										</div>
+									</div>
+
+									<div class="form-footer__info">
+										<div class="form-footer__info_top">
+											<img
+												src="../../img/icons/location.svg"
+												alt="Phone"
+												class="form-footer__info_img"
+											/>
+											<span class="form-footer__info_title">Адрес</span>
+										</div>
+										<a
+											class="form-footer__info_link"
+											href="https://maps.app.goo.gl/rBCkj8bnsn2e2HYq7"
+											target="_blank"
+											rel="noreferrer noopener"
+										>
+											Yenigün, Mevlana Cd. No:76A, 07310 Muratpaşa/Antalya
+										</a>
+									</div>
+								</div>
+
+								<div class="form-footer__col">
+									<ul class="form-footer__list">
+										<li>
+											<a
+												class="form-footer__btn btn-light-blue"
+												href="https://www.instagram.com/lavanta_ride/"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												<img
+													src="../../img/icons/instagram.svg"
+													alt="instagram"
+												/>
+											</a>
+										</li>
+										<li>
+											<a
+												class="form-footer__btn btn-light-blue"
+												href="https://www.tiktok.com/@lavanta.ride?lang=ru-RU"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												<img src="../../img/icons/tiktok.svg" alt="tiktok" />
+											</a>
+										</li>
+										<li>
+											<a
+												class="form-footer__btn btn-light-blue"
+												href="https://t.me/LavantaRide_official"
+												target="_blank"
+												rel="noreferrer noopener"
+											>
+												<img
+													src="../../img/icons/telegram.svg"
+													alt="telegram"
+												/>
+											</a>
+										</li>
+									</ul>
+
+									<ul class="form-footer__list">
+										<li>
+											<a
+												class="form-footer__btn form-footer__btn-disabled btn"
+												href="#contactForm"
+											>
+												<img src="../../img/icons/apple.svg" alt="apple" />
+												<span>App Store</span>
+											</a>
+										</li>
+										<li>
+											<a
+												class="form-footer__btn form-footer__btn-disabled btn"
+												href="#contactForm"
+											>
+												<img
+													src="../../img/icons/google-play.svg"
+													alt="google-play"
+												/>
+												<span>Google Play</span>
+											</a>
+										</li>
+									</ul>
+									<p class="link-policy">
+										Ваши данные обрабатываются в соответствии с
+										<a href="/privacy-policy/ru"
+											>Политикой конфиденциальности.</a
+										>
+									</p>
+								</div>
+							</div>
+
+							<form id="contactForm" class="form-footer__right">
+								<div class="form-footer__col">
+									<h3 class="form-footer__title">Свяжитесь с нами</h3>
+								</div>
+
+								<div class="form-footer__col">
+									<div class="form-footer__col_box">
+										<input
+											class="form-footer__input"
+											type="text"
+											name="name"
+											id="name"
+											placeholder="Имя"
+											required
+										/>
+										<input
+											class="form-footer__input"
+											type="text"
+											name="username"
+											id="username"
+											placeholder="Ваш контакт для связи"
+										/>
+									</div>
+
+									<textarea
+										class="form-footer__textarea"
+										name="message"
+										id="message"
+										placeholder="Вопрос"
+									></textarea>
+								</div>
+								<div class="form-footer__col">
+									<button
+										type="submit"
+										class="form-footer__submit btn-light-blue"
+									>
+										Отправить
+									</button>
+								</div>
+							</form>
+						</div>
+
+						<div class="footer__image">
+							<img src="../../img/footer/image.webp" alt="Logo" />
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<div class="modal">
+				<div class="modal-content">
+					<div class="modal-content__head">
+						<img
+							class="modal-content__logo"
+							src="../../img/logo-w.svg"
+							alt="logo"
+						/>
+
+						<div class="modal-content__close">
+							<img src="../../img/icons/close.svg" alt="close" />
+						</div>
+					</div>
+
+					<div class="modal-content__body">
+						<h3 class="modal-content__title title">
+							Закажите обратный <span>Звонок</span>
+						</h3>
+
+						<form id="callForm">
+							<input type="hidden" name="callhidden" value="Обратный звонок" />
+							<input
+								type="text"
+								name="nameCall"
+								class="modal-content__input"
+								placeholder="Имя"
+								required
+							/>
+							<input
+								type="number"
+								name="phoneCall"
+								class="modal-content__input"
+								placeholder="Ваш телефон"
+								required
+								pattern="^\+7\(\d{3}\)\d{3}-\d{2}-\d{2}$"
+								maxlength="17"
+							/>
+
+							<button class="btn" type="submit">Отправить</button>
+						</form>
+
+						<!-- <a class="modal-content__link btn" href="#">
+							<img src="../../img/icons/call-incoming.svg" alt="coll" />
+							<span>Заказать</span>
+						</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/toastify-js?_v=20250418161646"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20250418161646"></script>
+		<script>
+			AOS.init()
+		</script>
+		<script src="../../js/app.min.js?_v=20250418161646"></script>
+	</body>
+</html>
